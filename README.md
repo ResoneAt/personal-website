@@ -1,8 +1,9 @@
-# personal-website
+# ✨personal-website
 
 Welcome to my personal website project! The website is designed to showcase my skills, projects, and experiences, providing visitors with a comprehensive view of who I am and what I do.
 
-## Features
+
+## 🪄Features
 
    - Home Page: A visually appealing landing page that introduces myself and provides an overview of the website's content.
    - About Me: An in-depth section where I share my background, education, skills, and interests.
