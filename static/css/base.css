@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 body{
     margin:0;
     padding:0;
     box-sizing: border-box;
     background-color:black;
     color:white;
+    font-family: 'Quicksand', sans-serif;
+}
+.main-banner{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.main-banner h1{
+}
+.main-banner p{
+    background-color:blue;
 }
