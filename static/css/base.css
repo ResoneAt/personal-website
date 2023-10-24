@@ -149,6 +149,9 @@ body{
         visibility: hidden;
         position: absolute;
     }
+    .main-banner .left-side h1{
+    font-size: 54px;
+    }
     .main-banner .left-side{
         width: 80%;
     }
