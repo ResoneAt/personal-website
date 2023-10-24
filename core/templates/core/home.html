@@ -1,12 +1,42 @@
 {% extends 'base.html' %}
 {% block main-content %}
-    <div class="main-banner" style="margin-top:250px;">
-        <h1>i'm Ramin Eslami</h1>
+{% load static %}
+
+    <div class="main-banner">
+        <div class="left-side">
+            <div>
+                <h1>I'm Ramin Eslami</h1>
+                <p>Hey guys ... I'm junior software engineer and enthusiast supporting programming.</p>
+                <p class="p2">My expertise lies in web development and software servers.</p>
+            </div>
+            <div class="button-div">
+                <a href="https://media.licdn.com/dms/document/media/D4E1FAQEfDbvhJydHLA/feedshare-document-pdf-analyzed/0/1695570345279?e=1698883200&v=beta&t=k3mBC51H_XOb0U2jrG8zOmGLdntT4taYb8NtDyUDa4Y">Download CV</a>
+                <a href="https://github.com/ResoneAt" class="b2"><i class="fa fa-github" aria-hidden="true"></i> Github profile</a>
+            </div>
+        </div>
+        <div class="right-side">
+            <img src="{% static 'images/RaminEslami.png' %}" alt="RaminEslami">
+
+            <!-- <span class="logoR">R</span>
+            <span class="logoA">A</span>
+            <span class="logoM">M</span>
+            <span class="logoI">I</span>
+            <span class="logoN">N</span> -->
+
+            <!-- <span class="logoRf">ر</span>
+            <span class="logoAf">ا</span>
+            <span class="logoMf">م</span>
+            <span class="logoIf">ی</span>
+            <span class="logoNf">ن</span> -->
+
+        </div>
     </div>
-    <div class="">
+
+    <div class="portfolio-display">
 
     </div>
-    <div class="">
+
+    <div class="blogs-display">
 
     </div>
 {% endblock main-content %}
