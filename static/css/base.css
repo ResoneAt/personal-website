@@ -1,20 +1,163 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 body{
-    margin:0;
-    padding:0;
+    background-color: rgb(246, 246, 246);
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    background-color:black;
-    color:white;
-    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+
 }
-.main-banner{
-    display:flex;
-    align-items:center;
+
+
+.navbar{
+    height: 54px;
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
+    border-bottom: solid;
+    border-color: rgba(4, 4, 4, 0.038);
 }
-.main-banner h1{
+.navbar a{
+    margin-right: 4vw;
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+    padding: 8px 20px;
+    border: solid;
+    border-color: rgba(240, 248, 255, 0);
+    border-width: 1px;
+    border-radius: 7px;
 }
-.main-banner p{
-    background-color:blue;
+.navbar a:hover{
+    border: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 2px black;
+}
+
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+.main-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 650px;
+}
+.main-banner .left-side{
+    padding: 16px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.main-banner .left-side h1{
+    color: rgb(19, 19, 19);
+    font-size: 64px;
+    margin-top: 16px;
+}
+.main-banner .left-side p{
+    margin-top: -16px;
+    color: rgb(19, 19, 19);
+    font-size: 24px;
+}
+.main-banner .left-side .p2{
+    color: rgba(156, 156, 156, 0.493);
+    font-size: 20px;
+    margin-top:0;
+}
+.main-banner .left-side .button-div{
+    float: left;
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 8px;
+}
+.main-banner .left-side .button-div a{
+    font-size: 24px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 2px black;
+    padding: 8px 20px;
+    margin-right: 16px;
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+}
+.main-banner .left-side .button-div .b2{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.main-banner .left-side .button-div a:hover{
+    background-color: rgb(210, 210, 210);
+    box-shadow: -2px -2px 2px rgb(251, 251, 251);
+    padding: 8px 20px;
+    margin-right: 16px;
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+}
+
+
+.main-banner .right-side{
+    padding: 16px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.main-banner .right-side p{
+    color: rgb(19, 19, 19);
+}
+.main-banner .right-side img{
+    height: 500px;
+    width: auto;
+    border-radius: 7px;
+    box-shadow: 7px 7px 1px black;
+    z-index: 0;
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .main-banner .left-side .button-div a{
+        font-size: 18px;
+        border: solid;
+        border-width: 1px;
+        border-radius: 7px;
+        background-color: antiquewhite;
+        box-shadow: 2px 2px 2px black;
+        padding: 8px 20px;
+        margin-right: 16px;
+        text-decoration: none;
+        color: rgb(19, 19, 19);
+    }
+}
+@media only screen and (max-width: 868px) {
+    .main-banner .right-side{
+        visibility: hidden;
+        position: absolute;
+    }
+    .main-banner .left-side{
+        width: 80%;
+    }
+    .main-banner .left-side .button-div a{
+        font-size: 14px;
+
+    }
+    .navbar a{
+        margin-right: 2vw;
+
+    }
 }
