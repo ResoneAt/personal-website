@@ -1,7 +1,7 @@
 # ✨personal-website
 
 Welcome to my personal website project! The website is designed to showcase my skills, projects, and experiences, providing visitors with a comprehensive view of who I am and what I do.
-<a href='https://ramineslami.pythonanywhere.com/' target='_blank'>See website</a>
+<a href='https://ramineslami.pythonanywhere.com/' target="_blank">See website</a>
 
 
 ## 🪄Features
